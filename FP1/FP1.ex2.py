@@ -1,4 +1,4 @@
-Temp = int(input("Introduza a temperatura em Farenheit: "))
+temp = int(input("Introduza a temperatura em Farenheit: "))
 
 conv = (temp - 32) * 5 / 9
 
