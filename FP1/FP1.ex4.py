@@ -1,11 +1,13 @@
-nota1 = float(input("Introduza a 1º nota: "))
-nota2 = float(input("Introduza a 2º nota: "))
-nota3 = float(input("Introduza a 3º nota: "))
+nota1 = float(input("Escreva a 1º Nota: "))
+nota2 = float(input("Escreva a 2º Nota: "))
+nota3 = float(input("Escreva a 3º Nota: "))
 
-nota1p = nota1 * 1.25
-nota2p = nota2 * 1.35
-nota3p = nota3 * 1.45
+media =float((nota1 * 25 + nota2 * 35 + nota3 * 40) /100)
+media_int = int((nota1 * 25 + nota2 * 35 + nota3 * 40) //100)
+media_modulo = int((nota1 * 25 + nota2 * 35 + nota3 * 40)%100)
 
-media = (nota1p + nota2p + nota3p) / 3
+#print("A média das notas é: {}\n A média inteira é: {}\n O resto da média é {}".format(media,media_int,media_modulo))
 
-print("Média Ponderada: ", media)
+print("Média: ", media)
+print("Média inteira: ", media_int)
+print("Média modúlo ", media_modulo)
